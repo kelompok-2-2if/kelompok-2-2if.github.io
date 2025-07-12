@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelompok II | Pribadi Website</title>
+  <link rel="icon" href="img/project1.png" />
+       <meta property="og:title" content="Kelompok II | Pribadi Website" />
+       <meta property="og:image" content="https://l.top4top.io/p_3281ijlbd0.png"/>
+       <meta property="og:type" content="Pribadi Website"/>
+       <meta property="og:description" content="Kelompok II adalah kelompok mahasiswa yang tergabung dalam mata kuliah Praktikum Pengantar Teknologi Internet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="typed.min.js"></script>
+</head>
+<body>
+  <!-- Partikel Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top animate__animated animate__fadeInDown">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Kelompok II</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="profile" href="#" data-bs-toggle="dropdown">Profile</a>
+            <ul class="dropdown-menu" id="menu">
+              <li><a class="dropdown-item" href="anggota/anggota1.html">M. Andri Ilham</a></li>
+              <li><a class="dropdown-item" href="anggota/anggota2.html">M. Daffa Pamungkas</a></li>
+              <li><a class="dropdown-item" href="anggota/anggota3.html">M. Rizky Pratama</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <button id="themeToggle" class="custom-btn ms-2 mt-1" style="border: 0;" title="Toggle Mode">
+              <i id="themeIcon" class="bi bi-brightness-high"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="pt-5 section-box mt-5 animate__animated animate__fadeInDown">
+    <div class="text-center">
+      <h1 class="fw-bold title1">Welcome To Pribadi Website Kelompok II</h1>
+      <pre class="text"><em><span id="typed-text"></span></em></pre>
+    </div>
+  </section>
+
+  <!-- Profile -->
+   <section id="profile" class="section-box animate__animated animate__fadeInUp">
+    <div id="carouselWelcome" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide anggota 1 -->
+        <div class="carousel-item active text-center">
+          <div class="profile-box">
+            <div class="col-md-5 text-center mb-3 mb-md-0">
+                <img src="img/andri.jpg" class="img-fluid mb-3 profile-img" />
+            </div>
+            <div class="col-md-7 text-md-start text-center aboutsi">
+                <h3>M. Andri Ilham</h3>
+                <p>Mechatronic Engginering & Hacker</p>
+                <a href="anggota/anggota1.html" class="custom-btn"  style="text-decoration: none;">View More</a>
+                 <h1 class="media">My Social Media :</h1>
+                 <div class="mt-3">
+                   <a href="https://www.instagram.com/ilham_ndri"><i class="fab fa-instagram me-3"></i></a>
+                   <a href="https://wa.me/6281368811583"><i class="fab fa-whatsapp me-3"></i></a>
+                   <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+                 </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide anggota 2 -->
+        <div class="carousel-item text-center">
+          <div class="profile-box">
+            <div class="col-md-5 text-center mb-3 mb-md-0">
+              <img src="img/dafa.jpg" class="img-fluid mb-3 profile-img" />
+            </div>
+            <div class="col-md-7 text-md-start text-center aboutsi">
+              <h3>M. Daffa Pamungkas</h3>
+                 <p>Frontend Designer & Backend Developer</p>
+                 <a href="anggota/anggota2.html" class="custom-btn"  style="text-decoration: none;">View More</a>
+                 <h1 class="media">My Social Media :</h1>
+                 <div class="mt-3">
+                     <a href="https://www.instagram.com/daffaks_?igsh=a3hmY2lqdzl5azdl"><i class="fab fa-instagram me-3"></i></a>
+                     <a href="https://wa.me/6283177153912"><i class="fab fa-whatsapp me-3"></i></a>
+                     <a href="https://www.tiktok.com/@claffaks?_t=ZS-8xvx1wwyXHl&_r=1"><i class="fab fa-tiktok"></i></a>
+                 </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide anggota 3 -->
+        <div class="carousel-item text-center">
+          <div class="profile-box">
+            <div class="col-md-5 text-center mb-3 mb-md-0">
+               <img src="img/rizky.jpg" class="img-fluid mb-3 profile-img" />
+            </div>
+            <div class="col-md-7 text-md-start text-center aboutsi">
+                 <h3>M. Rizky Pratama</h3>
+                 <p>Cyber Security Analyze & Frontend Developer</p>
+                  <a href="anggota/anggota3.html" class="custom-btn"  style="text-decoration: none;">View More</a>
+                  <h1 class="media">My Social Media :</h1>
+                <div class="mt-3">
+                  <a href="https://www.instagram.com/_rzkyy.__?igsh=MTdnbjgwZ2JwOHk1Yg=="><i class="fab fa-instagram me-3"></i></a>
+                  <a href="https://wa.me/6282280462726"><i class="fab fa-whatsapp me-3"></i></a>
+                  <a href="https://www.tiktok.com/@hijrah_kyy?_t=8rK9n9ieW5o&_r=1"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselWelcome" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselWelcome" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+   </section>
+
+  <!-- About -->
+  <section id="about" class="section-box">
+    <div class="text-center">
+      <h2 class="fw-bold"><i class="fa-solid fa-circle-info"></i> About Us</h2>
+      <hr>
+      <br>
+      <p class="aboutUs">Kelompok II adalah kelompok mahasiswa yang tergabung dalam mata kuliah Praktikum Pengantar Teknologi Internet. Website ini dibuat sebagai bagian dari tugas akhir kami untuk mengaplikasikan materi yang telah dipelajari selama satu semester, seperti HTML, CSS, JavaScript, dan dasar-dasar pengembangan web. Kami terdiri dari mahasiswa-mahasiswi yang bersemangat untuk belajar dan bekerja sama, serta memiliki tujuan yang sama, memahami dan menguasai dasar-dasar teknologi internet sebagai bekal di dunia IT yang terus berkembang.
+</p>
+    </div>
+  </section>
+
+      <section id="komentar" class="section-box">
+      <div>
+       <h2 class="fw-bold text-center"><i class="fa-solid fa-comments"></i> Komentar</h2>
+       <hr>
+         <div class="chat-box" id="chat-box"></div>
+          <form id="chat-form">
+            <center>
+           <input type="text" id="chat-name" placeholder="Nama" required>
+           <input type="text" id="chat-message" placeholder="Pesan" required>
+           <button type="submit" class="custom-btn kirim">Komentar</button>
+             </center>
+           </form>
+      </div>
+    </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-box">
+    <div class="text-center">
+      <h2 class="fw-bold"><i class="fa-solid fa-envelope"></i> Contact US</h2>
+      <hr>
+      <br>
+      <form id="contactForm" class="mx-auto" style="max-width:500px;">
+        <input type="text" id="name" class="form-control mb-3" placeholder="Nama" required />
+        <input type="email" id="email" class="form-control mb-3" placeholder="Email" required />
+        <textarea id="message" class="form-control mb-3" rows="4" placeholder="Pesan" required></textarea>
+        <button type="submit" class="custom-btn w-100"> Kirim
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center" style="margin-bottom: 3%; color: gray;">
+    <small>© 2k25 kelompok II. All rights reserved.</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
